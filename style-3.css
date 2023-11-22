@@ -1,0 +1,79 @@
+/*comentarios*/
+/*selector de tipo html*/
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    background-color: hsl(251, 61%, 65%);
+    width: 300px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px white;
+    padding: 2%;
+}
+/*padding es para marcar espacios internos de las caja*/
+/*border es para los bordes de las cajas*/
+/*margin es para los espacios externos de las cajas*/
+
+nav{
+    background-color: white;
+    border: 3px solid hsl(251, 61%, 65%);
+    margin: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h3{
+    color:black;
+    text-transform: uppercase;
+}
+/*selector de class*/
+
+p{
+    font-weight: bold;
+    text-align: center;
+}
+/*estilo de párrafo*/
+
+.Título{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+/*selector de tipo clase, reutilizacion*/
+
+.tarjeta{
+    background-color: white;
+    border: 3px solid hsl(251, 61%, 65%);
+    margin: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+/*Con esta instruccion ponemos bordes*/
+
+#favoritas{
+    color: hsl(251, 61%, 65%);
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+/*selector de tipo ID*/
+#formulario{
+    color: gray;
+    text-align: center;
+}
+
+#imagen-1{
+    width: 50%; /*unidades relativas*/
+    height: 50%;
+    margin: 0 auto;
+    display: block;
+    shape-image-threshold: initial;
+}
+
+#imagen-final{
+    width: 500px; /*unidades fijas*/
+    margin: 0 auto;
+    display: block;
+}
